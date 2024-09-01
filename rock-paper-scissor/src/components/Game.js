@@ -40,13 +40,13 @@ function Game() {
         <div>
             <h1>Rock Paper Scissor Game</h1>
             <div >
-                <button onClick={decision("ROCK")}>
+                <button onClick={() => decision("ROCK")}>
                     <i /> Rock
                 </button>
-                <button onClick={decision("PAPER")}>
+                <button onClick={() => decision("PAPER")}>
                     <i /> Paper
                 </button>
-                <button onClick={decision("SCISSORS")}>
+                <button onClick={() => decision("SCISSORS")}>
                     <i />  Scissors 
                 </button>
             </div>
